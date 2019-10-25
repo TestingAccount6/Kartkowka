@@ -6,8 +6,8 @@ public class Main {
 		// TODO Auto-generated method stub
 
 	}
-
-	public static void binarySearch(int arr[], int first, int last, int key) {
+	
+	public static int binarySearch(int arr[], int first, int last, int key) {
 		int mid = (first + last) / 2;
 		while (first <= last) {
 			if (arr[mid] < key) {
@@ -23,6 +23,7 @@ public class Main {
 		if (first > last) {
 			System.out.println("Element is not found!");
 		}
+		
+		return mid;
 	}
-
 }
