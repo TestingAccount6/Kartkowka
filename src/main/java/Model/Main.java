@@ -22,6 +22,7 @@ public class Main {
 		}
 		if (first > last) {
 			System.out.println("Element is not found!");
+			return -1;
 		}
 		
 		return mid;
