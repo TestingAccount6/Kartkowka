@@ -1,5 +1,4 @@
-package main.java.Model;
-
+import Model.Main;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
