@@ -75,6 +75,10 @@ public class Vitos {
     public void Test1() {
         Assert.assertEquals(Main.binarySearch(sample, first, last, key), result);
     }
-
-
 }
+
+/*
+*
+*   Last but not least.
+*
+*/
