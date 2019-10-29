@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.Collection;
 
 @RunWith(Parameterized.class)
-public class MainTest {
+public class Vitos {
 
 /*    int[] sample = new int[]{-2,-1,-1,0,1,1,2,4};
     int answer=3;
@@ -63,7 +63,7 @@ public class MainTest {
     private int key;
     private int result;
 
-    public MainTest(int[] arr, int first, int last, int key, int result) {
+    public Vitos(int[] arr, int first, int last, int key, int result) {
         this.sample = arr;
         this.first = first;
         this.last = last;
